@@ -1,6 +1,6 @@
 mongoose=require('mongoose')
 
-mongoose.connect("mongodb://127.0.0.1/adit4").then(()=>{
+mongoose.connect("mongodb+srv://aditibm7235:zHPDgan9EhJ27Cyb@student.afeks2u.mongodb.net/?retryWrites=true&w=majority").then(()=>{
     console.log('connected successfully')
 }).catch((error)=>{console.log(error)})
 
