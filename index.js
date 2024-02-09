@@ -41,7 +41,7 @@ app.post('/login',async(req,res)=>{
           if(checkpass){
             
             //   res.send('Login Successful')
-               res.render('otpverify')
+               res.render('user')
           }
           else{
               res.send('Incorrect password')
